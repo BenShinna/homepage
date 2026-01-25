@@ -34,8 +34,10 @@ function App() {
               <h1 className='text-3xl font-bold items-center justify-center text-[#E9FFAC] w-auto'>+</h1>
             </div>
             <h1 className='text-xl font-bold items-center justify-center text-[#E9FFAC]/80'>MAIN HOMEPAGE</h1>
-            <div className='flex flex-row mt-1 pointer-events-auto justify-end'>
+            <div className='flex flex-row mt-1 pointer-events-auto justify-end gap-2'>
               <a href='https://blog.soout.top' className='btn btn-sm rounded-4xl bg-transparent border-2 border-[#E9FFAC] text-[#E9FFAC] hover:bg-[#E9FFAC] hover:text-black'>BLOG</a>
+              <a href='https://34.soout.top' className='btn btn-sm rounded-4xl bg-transparent border-2 border-[#E9FFAC] text-[#E9FFAC] hover:bg-[#E9FFAC] hover:text-black'>34</a>
+              <a href='https://audio.soout.top' className='btn btn-sm rounded-4xl bg-transparent border-2 border-[#E9FFAC] text-[#E9FFAC] hover:bg-[#E9FFAC] hover:text-black'>AUDIO</a>
             </div>
           </div>
         </div>
