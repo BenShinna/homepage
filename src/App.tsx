@@ -38,7 +38,7 @@ function App() {
             </div>
             <h1 style={fontStyle} className='text-xl font-bold items-center justify-center text-[#E9FFAC]/80'>要把生活当作小说看，又要把小说当作生活看。</h1>
             <div className='flex flex-row mt-1 pointer-events-auto justify-end gap-2'>
-              <a href='https://megan-woad.vercel.app/' className='btn btn-sm rounded-4xl bg-transparent border-2 border-[#E9FFAC] text-[#E9FFAC] hover:bg-[#E9FFAC] hover:text-black'>BLOG</a>
+              <a href='https://legendary-goggles.asia/' className='btn btn-sm rounded-4xl bg-transparent border-2 border-[#E9FFAC] text-[#E9FFAC] hover:bg-[#E9FFAC] hover:text-black'>BLOG</a>
             </div>
           </div>
         </div>
