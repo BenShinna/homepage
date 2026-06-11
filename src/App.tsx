@@ -43,6 +43,13 @@ function App() {
               <a href='https://legendary-goggles.asia/' className='btn btn-sm rounded-4xl bg-transparent border-2 border-[#E9FFAC] text-[#E9FFAC] hover:bg-[#E9FFAC] hover:text-black'>BLOG</a>
             </div>
           </div>
+
+          {/* 页脚归属说明 */}
+          <div className='fixed bottom-4 left-0 right-0 text-center pointer-events-auto'>
+            <p className='text-xs text-[#E9FFAC]/50 hover:text-[#E9FFAC]/80 transition-colors'>
+              Theme based on <a href='https://github.com/sout233/soout-homepage' target='_blank' rel='noopener noreferrer' className='underline hover:text-[#E9FFAC]'>sout233/soout-homepage</a>
+            </p>
+          </div>
         </div>
 
         {/* 页脚归属说明 - 新增部分 */}
