@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <div className='flex flex-col'>
+        {/* 背景动画 */}
         <div className="absolute h-screen w-screen bg-black z-0">
           <PixelBlast
             variant="square"
@@ -30,6 +31,7 @@ function App() {
           />
         </div>
 
+        {/* 主要内容区域 */}
         <div className='flex flex-col z-10 items-center justify-center h-screen pointer-events-none'>
           <div className='w-72 md:w-100 lg:w-111 bg-black/50 backdrop-blur-2xl justify-between'>
             <div className='flex flex-row justify-between w-full'>
@@ -42,6 +44,15 @@ function App() {
             </div>
           </div>
         </div>
+
+        {/* 页脚归属说明 - 新增部分 */}
+        {/* z-50 确保它在背景和内容之上 */}
+        <div className='fixed bottom-4 left-0 right-0 text-center pointer-events-auto z-50'>
+          <p className='text-xs text-[#E9FFAC]/50 hover:text-[#E9FFAC]/80 transition-colors'>
+            Theme based on <a href='https://github.com/sout233/soout-homepage' target='_blank' rel='noopener noreferrer' className='underline hover:text-[#E9FFAC]'>sout233/soout-homepage</a>
+          </p>
+        </div>
+
       </div>
     </>
   )
